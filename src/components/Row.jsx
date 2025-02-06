@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Switch from "./Switch";
 
 const Row = (props) => {
-  const stepcount = 8;
+  const stepcount = 16;
 
   const steps = new Array(stepcount).fill(false);
   const [playingStep, setPlayingStep] = useState(0);
