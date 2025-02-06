@@ -25,6 +25,7 @@ const Switch = (props) => {
       }}
     >
       <div
+        className="switch"
         onClick={() => setActive(!active)}
         style={{
           cursor: "pointer",

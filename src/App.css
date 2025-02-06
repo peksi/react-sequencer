@@ -26,3 +26,11 @@
     animation: logo-spin infinite 20s linear;
   }
 }
+
+.switch {
+  transition-duration: 0.5s;
+}
+
+.switch:hover {
+  background-color: black !important;
+}
